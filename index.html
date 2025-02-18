@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seaway Journeys</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kurale&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="seaway">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">seaway Journeys</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destinations</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  more
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Packages</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home-page">
+        <div id="hero-content">
+          <h1>From beaches to mountains, Seaway takes you there.</h1>
+          <button type="button" class="btn btn-primary">explore now</button>
+        </div>
+      </section>
+    </main>
+    <main>
+      <div id="hero2">
+        <div class="card" style="width: 18rem">
+          <img
+            src="holland america cruises.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">HOLLAND AMERICA CRUISES</h5>
+            <p class="card-text">
+              Explore the wilds of Alaska. Visit Europe’s iconic cities and
+              ancient ruins. Experience the charms of Canada and New England.
+              Unwind on a Caribbean beach. Cruise the world with Holland America
+              Line.
+            </p>
+            <a href="#" class="btn btn-primary">contact now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="NORWEGIAN CRUISES.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">NORWEGIAN CRUISES</h5>
+            <p class="card-text">
+              Norwegian’s Free at Sea promotion now lets you choose up to 5
+              fantastic, FREE offers with a value of up to $2,800! Don’t miss
+              out and book today with Norwegian’s Free at Sea and make
+              unforgettable memories you’ll talk about for years to come.
+            </p>
+            <a href="#" class="btn btn-primary">contact now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="ROYAL CARIBBEAN CRUISES.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ROYAL CARIBBEAN CRUISES</h5>
+            <p class="card-text">
+              Go on the adventure of a lifetime on one of the largest cruise
+              ships in the world. These ships are for people who have the action
+              bug in mind. Give me a call. I can guarantee you’ll have an
+              incredible time.
+            </p>
+            <a href="#" class="btn btn-primary">contact now</a>
+          </div>
+        </div>
+      </div>
+      
+    <section id="tours" class="container my-5">
+        <h2 class="text-center mb-4">Tour Packages</h2>
+        <div class="accordion" id="tourAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour1">Island Escape</button>
+                </h2>
+                <div id="tour1" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        A 7-day tour exploring the most beautiful islands.
+                        <a href="#" class="btn btn-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour2">Cultural Adventure</button>
+                </h2>
+                <div id="tour2" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Discover rich traditions and ancient sites.
+                        <a href="#" class="btn btn-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour3">Wildlife Safari</button>
+                </h2>
+                <div id="tour3" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Experience the thrill of a guided safari in the heart of the wild.
+                        <a href="#" class="btn btn-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour4">Mountain Trekking</button>
+                </h2>
+                <div id="tour4" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Trek through breathtaking mountain landscapes with expert guides.
+                        <a href="#" class="btn btn-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <main id="hero3">
+      <h1>contact us</h1>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Enter your message</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </main>
+    <footer>
+      <div id="logos">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <br />
+        <br />
+        <p id="copyright">&copy; 2025 Teghri Arslene. All rights reserved.</p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/a9d5b97988.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
